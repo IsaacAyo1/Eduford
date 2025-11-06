@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eduford | About Us</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+ <section class="about-header">
+ 	<nav>
+ 		<a href="index.html"><img src="img/logo.png"> </a>
+ 		<div class="nav-link" id="navlink">
+ 			<div class="menu"><i class="fa-solid fa-xmark" onclick="hideMenu()"></i></div> 
+ 			<ul>
+ 				<li><a href="index.html">HOME</a></li>
+ 				<li><a href="about.html">ABOUT</a></li>
+ 				<li><a href="course.html">COURSE</a></li>
+ 				<li><a href="blog.html">BLOG</a></li>
+ 				<li><a href="contact.html">CONTACT</a></li>
+ 			</ul>
+ 		</div>
+ 		<div class="cancel"><i class="fa-solid fa-bars" onclick="showMenu()"></i></div> 
+ 	</nav>
+
+ 	<h1>About Us</h1>
+ </section>
+
+<!---About us content--->
+<section class="about-us">
+	<div class="row">
+		<div class="about-col">
+			<h1>We are the World's Best University</h1>
+			<p>I thrive in the dynamic environment of web development where creativity meets functionality. My expertise spans across front-end technologies like HTML, CSS, and JavaScript, and back-end frameworks such as Node.js and XAMPP. I’m particularly passionate about responsive design, ensuring every website I create looks stunning and functions seamlessly across all devices. Collaboration is at the heart of my process, and I relish working with cross-functional teams to deliver projects that not only meet but exceed expectations.</p>
+			<a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+		</div>
+
+		<div class="about-col">
+			<img src="img/about.jpg">
+		</div>
+	</div>
+</section>
+
+<!---Footer--->
+<footer class="footer">
+	<h4>About Us</h4>
+	<p></p>
+	<div class="media-icons">
+		  <a href="#"><i class="fab fa-facebook-f"></i> </a>
+		  <a href="#"><i class="fab fa-twitter"></i></a>
+		  <a href="#"><i class="fab fa-instagram"></i></a>
+	  </div>
+	  <span>Created By <a href="#">The IsaacAyo Brand</a> | &#169; 2025 All Rights Reserved</span>
+</footer>
+
+
+
+<!--Js for toggle-->
+ <script>
+ 	
+ 	var navlink = document.getElementById("navlink");
+
+ 	function showMenu(){
+ 		navlink.style.right = "0"
+ 	}
+ 	function hideMenu(){
+ 		navlink.style.right = "-200px"
+ 	}
+ </script>
+</body>
+</html>

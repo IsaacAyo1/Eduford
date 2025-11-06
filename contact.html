@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eduford | Contact Us</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+ <section class="about-header">
+ 	<nav>
+ 		<a href="index.html"><img src="img/logo.png"> </a>
+ 		<div class="nav-link" id="navlink">
+ 			<div class="menu"><i class="fa-solid fa-xmark" onclick="hideMenu()"></i></div> 
+ 			<ul>
+ 				<li><a href="index.html">HOME</a></li>
+ 				<li><a href="about.html">ABOUT</a></li>
+ 				<li><a href="course.html">COURSE</a></li>
+ 				<li><a href="blog.html">BLOG</a></li>
+ 				<li><a href="contact.html">CONTACT</a></li>
+ 			</ul>
+ 		</div>
+ 		<div class="cancel"><i class="fa-solid fa-bars" onclick="showMenu()"></i></div> 
+ 	</nav>
+
+ 	<h1>Contact Us</h1>
+ </section>
+
+<!---contact us--->
+<section class="location">
+	
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.8490121739155!2d3.239387711213802!3d6.540743322934082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b856c12afe3f3%3A0xabe57f11cfb93e35!2s8%20Nureni%20Akintunde%20St%2C%20Ijegun%2C%20Lagos%20102213%2C%20Lagos!5e0!3m2!1sen!2sng!4v1752759883082!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+	<div class="row">
+		<div class="contact-col">
+			<div><i class="fa-solid fa-house"></i>
+				<span>
+					<h5>XYZ Road, ABC Building</h5>
+					<p>Igando, Lasu-Isheri Road.</p>
+				</span>
+			</div>
+
+			<div><i class="fa-solid fa-phone"></i>
+				<span>
+					<h5>+234 813 113 1989</h5>
+					<p>Monday to Saturday, 10AM to 1PM</p>
+				</span>
+			</div>
+
+			<div><i class="fa-solid fa-envelope"></i>
+				<span>
+					<h5>isaacayobami036@gmail.com</h5>
+					<p>Enroll your enquiry</p>
+				</span>
+			</div>
+		</div>
+
+		<div class="contact-col">
+
+			<form action="">
+				<input type="text" placeholder="Enter your Name" required/>
+				<input type="email" placeholder="Enter Email Address" required/>
+				<input type="text" placeholder="Enter your Subject" required/>
+				<textarea rows="8" placeholder="Message" required/></textarea>
+				<button type="submit" class="hero-btn red-btn">Send Message</button>
+			</form>
+		</div>
+	</div>
+</section>
+
+<!---Footer--->
+<footer class="footer">
+	<h4>About Us</h4>
+	<p></p>
+	<div class="media-icons">
+		  <a href="#"><i class="fab fa-facebook-f"></i> </a>
+		  <a href="#"><i class="fab fa-twitter"></i></a>
+		  <a href="#"><i class="fab fa-instagram"></i></a>
+	  </div>
+	  <span>Created By <a href="#">The IsaacAyo Brand</a> | &#169; 2025 All Rights Reserved</span>
+</footer>
+
+
+
+<!--Js for toggle-->
+ <script>
+ 	
+ 	var navlink = document.getElementById("navlink");
+
+ 	function showMenu(){
+ 		navlink.style.right = "0"
+ 	}
+ 	function hideMenu(){
+ 		navlink.style.right = "-200px"
+ 	}
+ </script>
+</body>
+</html>

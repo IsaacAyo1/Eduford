@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eduford | Courses</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+ <section class="about-header">
+ 	<nav>
+ 		<a href="index.html"><img src="img/logo.png"> </a>
+ 		<div class="nav-link" id="navlink">
+ 			<div class="menu"><i class="fa-solid fa-xmark" onclick="hideMenu()"></i></div> 
+ 			<ul>
+ 				<li><a href="index.html">HOME</a></li>
+ 				<li><a href="about.html">ABOUT</a></li>
+ 				<li><a href="course.html">COURSE</a></li>
+ 				<li><a href="blog.html">BLOG</a></li>
+ 				<li><a href="contact.html">CONTACT</a></li>
+ 			</ul>
+ 		</div>
+ 		<div class="cancel"><i class="fa-solid fa-bars" onclick="showMenu()"></i></div> 
+ 	</nav>
+
+ 	<h1>Our Courses</h1>
+ </section>
+
+
+
+<!--course-->
+
+<section class="course" id="courses">
+	<h1>Courses we offer</h1>
+	<p>We offer the best of the best over here at Eduford</p>
+
+	<div class="row">
+		<div class="course-col">
+			<h3>Intermediate</h3>
+			<p>Our Intermediate programs are thoughtfully designed to build a strong academic foundation for students coming out of school. Whether you're inclined towards Science, Commerce, or Arts, we offer comprehensive curricula that not only prepare you for university-level education but also help you discover your true interests. Alongside core subjects, students benefit from skill-development sessions, career counseling, and exposure to modern learning methods that make the transition to higher education smooth and engaging.</p>
+		</div>
+
+		<div class="course-col">
+			<h3>Degree</h3>
+			<p>Our undergraduate degree programs aim to shape well-rounded professionals equipped for today’s dynamic world. With options spanning across Science, Commerce, Arts, Business Administration, and Computer Applications, students receive both academic excellence and hands-on experience. Our curriculum is industry-aligned and supported by experienced faculty, internships, live projects, and regular seminars to enhance real-world understanding. These programs are tailored to build critical thinking, problem-solving skills, and professional confidence.</p>
+		</div>
+
+		<div class="course-col">
+			<h3>Post Graduation</h3>
+			<p>At the postgraduate level, we offer specialized programs that allow students to dive deeper into their chosen fields. Whether it's in the sciences, commerce, literature, or management, our PG courses emphasize research, innovation, and advanced subject mastery. Students engage in rigorous academic training, participate in research projects, and attend expert-led seminars that foster both intellectual and professional growth. Our aim is to equip graduates with the expertise and leadership skills needed for impactful careers and further academic pursuits.
+</p>
+		</div>
+	</div>
+
+</section>
+
+
+
+<!--facilities-->
+
+<section class="facility">
+	<h1>Our Facilities</h1>
+	<p>We offer the best of the best over here at Eduford</p>
+
+	<div class="row">
+		<div class="facility-col">
+			<img src="img/library.png">
+			<h3>World Class Library</h3>
+			<p>Explore a rich collection of books, journals, and digital resources in our modern library, designed for focused study and collaborative learning.</p>
+		</div>
+
+		<div class="facility-col">
+			<img src="img/basketball.png">
+			<h3>Equipped Sport Center</h3>
+			<p>Stay active with our fully equipped sports center, featuring indoor and outdoor facilities, professional trainers, and a vibrant fitness culture.
+</p>
+		</div>
+
+		<div class="facility-col">
+			<img src="img/cafeteria.png">
+			<h3>Tasty and Healthy Food</h3>
+			<p>Enjoy nutritious and delicious meals at our hygienic cafeteria, offering a variety of options to suit every taste and dietary need.</p>
+		</div>
+	</div>
+</section>
+
+
+
+<!---Footer--->
+
+<footer class="footer">
+	<h4>About Us</h4>
+	<p></p>
+	<div class="media-icons">
+		  <a href="#"><i class="fab fa-facebook-f"></i> </a>
+		  <a href="#"><i class="fab fa-twitter"></i></a>
+		  <a href="#"><i class="fab fa-instagram"></i></a>
+	  </div>
+	  <span>Created By <a href="#">The IsaacAyo Brand</a> | &#169; 2025 All Rights Reserved</span>
+</footer>
+
+
+
+<!--Js for toggle-->
+ <script>
+ 	
+ 	var navlink = document.getElementById("navlink");
+
+ 	function showMenu(){
+ 		navlink.style.right = "0"
+ 	}
+ 	function hideMenu(){
+ 		navlink.style.right = "-200px"
+ 	}
+ </script>
+</body>
+</html>
